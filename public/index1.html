@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="">
+  <header class="py-3">
+    <div class="max-w-[1406px] flex items-center mx-auto pr-4 pl-4">
+      <a class="flex mr-10" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="76" height="24" viewBox="0 0 76 24" fill="none">
+          <path
+            d="M5.67822 19.4453C9.11503 19.4453 11.1572 17.9687 11.1572 15.1408C11.1572 12.3379 9.36408 11.512 6.10159 11.0365C4.20885 10.7612 3.58624 10.4359 3.58624 9.61001C3.58624 8.80918 4.25866 8.2586 5.42917 8.2586C6.67439 8.2586 7.2721 8.75912 7.47134 9.83525H10.7836C10.4599 6.83212 8.29319 5.78102 5.40427 5.78102C2.73949 5.78102 0.249045 7.13243 0.249045 9.86027C0.249045 12.4129 1.59388 13.414 5.0556 13.9395C6.92344 14.2148 7.69548 14.5902 7.69548 15.4911C7.69548 16.3921 7.04796 16.9176 5.65331 16.9176C4.08433 16.9176 3.51153 16.2419 3.3621 15.0657H0C0.124522 17.8936 2.16669 19.4453 5.67822 19.4453Z"
+            fill="#111827" />
+          <path
+            d="M18.6523 16.6924C16.6101 16.6924 15.4645 15.1908 15.4645 12.6882V12.488C15.4645 9.9854 16.6599 8.53389 18.6523 8.53389C20.6695 8.53389 21.84 10.0355 21.84 12.5381V12.7132C21.84 15.1908 20.6695 16.6924 18.6523 16.6924ZM18.6274 19.4453C22.5374 19.4453 25.501 16.8175 25.501 12.6882V12.488C25.501 8.40876 22.5623 5.78102 18.6523 5.78102C14.7423 5.78102 11.7786 8.45881 11.7786 12.5631V12.7633C11.7786 16.8425 14.7423 19.4453 18.6274 19.4453Z"
+            fill="#111827" />+
+          <path
+            d="M26.9503 19.17H30.5365V8.65902H33.3756V6.08134H30.5365V4.47967C30.5365 3.47862 31.0097 2.75287 32.1553 2.75287C32.6783 2.75287 33.1266 2.85297 33.4753 2.9781V0.25026C32.9025 0.0750787 32.3795 0 31.6074 0C28.7185 0 26.9503 1.52659 26.9503 4.57977V6.08134H25.2319V8.65902H26.9503V19.17Z"
+            fill="#111827" />
+          <path
+            d="M40.0022 19.4202C40.9734 19.4202 41.6957 19.245 42.1938 19.0699V16.2669C41.7704 16.4421 41.3719 16.5172 40.824 16.5172C39.9025 16.5172 39.3796 16.0167 39.3796 14.9656V8.65902H42.119V6.08134H39.3796V3.25339H35.7933V6.08134H34.1247V8.65902H35.7933V15.2909C35.7933 18.0188 37.2627 19.4202 40.0022 19.4202Z"
+            fill="#111827" />
+          <path d="M43.5572 19.17H47.1434V0.150156H43.5572V19.17Z" fill="#111827" />
+          <path
+            d="M54.9505 16.6924C52.9083 16.6924 51.7627 15.1908 51.7627 12.6882V12.488C51.7627 9.9854 52.9581 8.53389 54.9505 8.53389C56.9677 8.53389 58.1383 10.0355 58.1383 12.5381V12.7132C58.1383 15.1908 56.9677 16.6924 54.9505 16.6924ZM54.9256 19.4453C58.8356 19.4453 61.7992 16.8175 61.7992 12.6882V12.488C61.7992 8.40876 58.8605 5.78102 54.9505 5.78102C51.0405 5.78102 48.0769 8.45881 48.0769 12.5631V12.7633C48.0769 16.8425 51.0405 19.4453 54.9256 19.4453Z"
+            fill="#111827" />
+          <path
+            d="M69.1264 24C73.4099 24 75.9751 22.0229 76 18.1439V6.08134H72.4138V8.03337C71.6666 6.70699 70.3965 5.78102 68.2796 5.78102C65.042 5.78102 62.5516 8.40876 62.5516 12.1627V12.3379C62.5516 16.2169 65.0669 18.5944 68.2298 18.5944C70.1474 18.5944 71.6915 17.4432 72.4138 16.1668V18.1439C72.4138 20.196 71.318 21.3472 69.1264 21.3472C67.2834 21.3472 66.4616 20.5965 66.2375 19.4453H62.6512C62.9999 22.1481 64.9175 24 69.1264 24ZM69.3007 15.8665C67.5076 15.8665 66.2375 14.5151 66.2375 12.3379V12.1376C66.2375 9.9854 67.3582 8.53389 69.3754 8.53389C71.3429 8.53389 72.5134 9.8853 72.5134 12.1126V12.2878C72.5134 14.5151 71.1934 15.8665 69.3007 15.8665Z"
+            fill="#111827" />
+        </svg>
+      </a>
+      <ul class="items-center gap-8 md:flex hidden">
+        <li><a class="text-[#111827] text-base font-medium leading-6" href="#">Categories</a></li>
+        <li><a class="text-[#111827] text-base font-medium leading-6" href="#">Blog</a></li>
+        <li><a class="text-[#111827] text-base font-medium leading-6" href="#">Contact</a></li>
+      </ul>
+      <div class="gap-3 ml-auto md:flex hidden">
+        <button class="py-2 px-5 rounded-3xl border-[#D1D5DB] text-[#111827] border-2 text-base font-me leading-6">Claim
+          profile</button>
+        <button class="py-2 px-5 rounded-3xl bg-[#2563EB] text-white text-base font-semibold leading-6">Write a
+          review</button>
+      </div>
+      <button id="header-hamburger-menu" class="flex md:hidden ml-auto">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M4 8H20M4 16H20" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+    <div id="header-responsive-menu" class="fixed top-0 transition-all -left-full w-full h-screen bg-white ">
+      <div class="flex justify-between border-b border-2 py-8 px-5">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="76" height="24" viewBox="0 0 76 24" fill="none">
+            <path
+              d="M5.67822 19.4453C9.11503 19.4453 11.1572 17.9687 11.1572 15.1408C11.1572 12.3379 9.36408 11.512 6.10159 11.0365C4.20885 10.7612 3.58624 10.4359 3.58624 9.61001C3.58624 8.80918 4.25866 8.2586 5.42917 8.2586C6.67439 8.2586 7.2721 8.75912 7.47134 9.83525H10.7836C10.4599 6.83212 8.29319 5.78102 5.40427 5.78102C2.73949 5.78102 0.249045 7.13243 0.249045 9.86027C0.249045 12.4129 1.59388 13.414 5.0556 13.9395C6.92344 14.2148 7.69548 14.5902 7.69548 15.4911C7.69548 16.3921 7.04796 16.9176 5.65331 16.9176C4.08433 16.9176 3.51153 16.2419 3.3621 15.0657H0C0.124522 17.8936 2.16669 19.4453 5.67822 19.4453Z"
+              fill="#111827" />
+            <path
+              d="M18.6523 16.6924C16.6101 16.6924 15.4645 15.1908 15.4645 12.6882V12.488C15.4645 9.9854 16.6599 8.53389 18.6523 8.53389C20.6695 8.53389 21.84 10.0355 21.84 12.5381V12.7132C21.84 15.1908 20.6695 16.6924 18.6523 16.6924ZM18.6274 19.4453C22.5374 19.4453 25.501 16.8175 25.501 12.6882V12.488C25.501 8.40876 22.5623 5.78102 18.6523 5.78102C14.7423 5.78102 11.7786 8.45881 11.7786 12.5631V12.7633C11.7786 16.8425 14.7423 19.4453 18.6274 19.4453Z"
+              fill="#111827" />
+            <path
+              d="M26.9503 19.17H30.5365V8.65902H33.3756V6.08134H30.5365V4.47967C30.5365 3.47862 31.0097 2.75287 32.1553 2.75287C32.6783 2.75287 33.1266 2.85297 33.4753 2.9781V0.25026C32.9025 0.0750787 32.3795 0 31.6074 0C28.7185 0 26.9503 1.52659 26.9503 4.57977V6.08134H25.2319V8.65902H26.9503V19.17Z"
+              fill="#111827" />
+            <path
+              d="M40.0022 19.4202C40.9734 19.4202 41.6957 19.245 42.1938 19.0699V16.2669C41.7704 16.4421 41.3719 16.5172 40.824 16.5172C39.9025 16.5172 39.3796 16.0167 39.3796 14.9656V8.65902H42.119V6.08134H39.3796V3.25339H35.7933V6.08134H34.1247V8.65902H35.7933V15.2909C35.7933 18.0188 37.2627 19.4202 40.0022 19.4202Z"
+              fill="#111827" />
+            <path d="M43.5572 19.17H47.1434V0.150156H43.5572V19.17Z" fill="#111827" />
+            <path
+              d="M54.9505 16.6924C52.9083 16.6924 51.7627 15.1908 51.7627 12.6882V12.488C51.7627 9.9854 52.9581 8.53389 54.9505 8.53389C56.9677 8.53389 58.1383 10.0355 58.1383 12.5381V12.7132C58.1383 15.1908 56.9677 16.6924 54.9505 16.6924ZM54.9256 19.4453C58.8356 19.4453 61.7992 16.8175 61.7992 12.6882V12.488C61.7992 8.40876 58.8605 5.78102 54.9505 5.78102C51.0405 5.78102 48.0769 8.45881 48.0769 12.5631V12.7633C48.0769 16.8425 51.0405 19.4453 54.9256 19.4453Z"
+              fill="#111827" />
+            <path
+              d="M69.1264 24C73.4099 24 75.9751 22.0229 76 18.1439V6.08134H72.4138V8.03337C71.6666 6.70699 70.3965 5.78102 68.2796 5.78102C65.042 5.78102 62.5516 8.40876 62.5516 12.1627V12.3379C62.5516 16.2169 65.0669 18.5944 68.2298 18.5944C70.1474 18.5944 71.6915 17.4432 72.4138 16.1668V18.1439C72.4138 20.196 71.318 21.3472 69.1264 21.3472C67.2834 21.3472 66.4616 20.5965 66.2375 19.4453H62.6512C62.9999 22.1481 64.9175 24 69.1264 24ZM69.3007 15.8665C67.5076 15.8665 66.2375 14.5151 66.2375 12.3379V12.1376C66.2375 9.9854 67.3582 8.53389 69.3754 8.53389C71.3429 8.53389 72.5134 9.8853 72.5134 12.1126V12.2878C72.5134 14.5151 71.1934 15.8665 69.3007 15.8665Z"
+              fill="#111827" />
+          </svg>
+        </a>
+        <button id="header-responsive-close">
+          <svg xmlns="http://www.w3.org/2000/svg" height="16" width="12"
+            viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+            <path
+              d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z" />
+          </svg>
+        </button>
+      </div>
+      <ul class="flex flex-col gap-5 items-center pt-4">
+        <li><a class="text-[#111827] text-base font-medium leading-6" href="#">Categories</a></li>
+        <li><a class="text-[#111827] text-base font-medium leading-6" href="#">Blog</a></li>
+        <li><a class="text-[#111827] text-base font-medium leading-6" href="#">Contact</a></li>
+        <button
+          class="py-2 px-5 rounded-3xl border-[#D1D5DB] text-[#111827] border-2 text-base font-medium leading-6">Claim
+          profile</button>
+        <button class="py-2 px-5 rounded-3xl bg-[#2563EB] text-white text-base font-semibold leading-6">Write a
+          review</button>
+      </ul>
+    </div>
+  </header>
+  <section style="background-image: url('./img/Hero.png');" class="py-[120px] bg-cover">
+    <div class="text-center px-4">
+      <h1 class="text-5xl font-bold leading-[56px] text-white pb-5 block md:hidden">CRM software</h1>
+      <h1 class="text-5xl font-bold leading-[56px] text-white pb-5 hidden md:block">Category title</h1>
+      <p class="text-white text-xl font-medium leading-7">Accounting software automates an organization's financial
+        functions and transactions with <br> modules including accounts payable, accounts receivable, payroll, billing
+        and general ledger.</p>
+    </div>
+  </section>
+  <section class="py-16">
+    <div class="max-w-[1406px] flex items-center justify-between mx-auto px-4 mb-[68px]">
+      <h2 class="text-base leading-6 "> <b>805</b> Listings</h2>
+      <button class="flex gap-2 border-2 border-[#D1D5DB] rounded-3xl py-3 px-6 font-medium">Filter
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path
+            d="M12 6V4M12 6C10.8954 6 10 6.89543 10 8C10 9.10457 10.8954 10 12 10M12 6C13.1046 6 14 6.89543 14 8C14 9.10457 13.1046 10 12 10M6 18C7.10457 18 8 17.1046 8 16C8 14.8954 7.10457 14 6 14M6 18C4.89543 18 4 17.1046 4 16C4 14.8954 4.89543 14 6 14M6 18V20M6 14V4M12 10V20M18 18C19.1046 18 20 17.1046 20 16C20 14.8954 19.1046 14 18 14M18 18C16.8954 18 16 17.1046 16 16C16 14.8954 16.8954 14 18 14M18 18V20M18 14V4"
+            stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+    <div class="max-w-[1406px] mx-auto px-5">
+      <div class="max-w-[1406px] mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-5">
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6  max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+        <div class="border rounded-lg py-2 flex items-center justify-between flex-col-reverse lg:flex-row">
+          <div class="ml-6 max-w-[422px]">
+            <h1 class="text-gray-900 text-xs font-semibold leading-4 flex gap-2  items-center mb-3">
+              <img class="flex" src="./img/Ellipse 14.png" alt="">
+              Jackie Colburn
+            </h1>
+            <p class="mb-6 text-gray-900 text-lg font-semibold leading-7">Elon Musk Is Approaching Twitter As If Its
+              Users Are Interchangeable. Is He Right?</p>
+            <div class="flex items-center gap-4">
+              <span class="text-[#6B7280] text-xs leading-4">Nov 4, 2022</span>
+              <button
+                class="py-1 px-2 text-gray-900 text-xs leading-4 border rounded-sm border-[#D1D5DB]">Label</button>
+            </div>
+          </div>
+          <div class="mr-2 hidden flex-shrink-0 md:flex w-full lg:h-[200px] md:h-[181px] lg:w-[200px]">
+            <img class="w-full h-full lg:w-[200px]" src="./img/1_1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-16">
+    <div class="max-w-[1406px] mx-auto bg-[#F3F4F6] rounded-3xl">
+      <div class="flex items-center justify-between">
+        <div class="my-20 ml-20">
+          <h2 class="text-[#111827] text-4xl font-bold leading-[48px] mb-10">Using products? <br>
+            <span class="text-[#6B7280] font-semibold ">Write a review</span>
+          </h2>
+          <button class="py-3 px-6 rounded-3xl bg-[#2563EB] text-white text-base font-medium leading-6">Write a
+            review</button>
+        </div>
+        <div class="">
+          <img src="./img/10_2.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-16">
+    <div class="max-w-[1406px] mx-auto p-4">
+      <h1 class="text-[#111827] text-3xl font-semibold leading-9 mb-10">Related categories</h1>
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+      </div>
+    </div>
+  </section>
+  <section class="py-16">
+    <div class="max-w-[1406px] mx-auto bg-[#F3F4F6] rounded-3xl">
+      <div class="flex items-center justify-between">
+        <div class="my-20 ml-20">
+          <h2 class="text-[#111827] text-4xl font-bold leading-[48px] mb-10">Selling products? <br>
+            <span class="text-[#6B7280] font-semibold ">Get discovered</span>
+          </h2>
+          <button class="py-3 px-6 rounded-3xl bg-[#2563EB] text-white text-base font-medium leading-6">Claim your
+            profile</button>
+        </div>
+        <div class="">
+          <img src="./img/Image ratio (1).png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="pt-16">
+    <div class="max-w-[1406px] mx-auto px-5 flex items-start gap-5 mb-6">
+      <ul class="max-w-[212px] w-full flex flex-col gap-6">
+        <li><a href="#" class="text-[#111827] text-lg font-semibold pb-6 leading-7">Product</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Categories</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Write a review</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Claim profile</a></li>
+      </ul>
+      <ul class="max-w-[212px] w-full flex flex-col gap-6">
+        <li><a href="#" class="text-[#111827] text-lg font-semibold pb-6 leading-7">Company</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">About us</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Press</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Media kit</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Contact</a></li>
+      </ul>
+      <ul class="max-w-[212px] w-full flex flex-col gap-6">
+        <li><a href="#" class="text-[#111827] text-lg font-semibold pb-6 leading-7">Social</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Twitter</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">LinkedIn</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Facebook</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Instagram</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Youtube</a></li>
+      </ul>
+      <ul class="max-w-[212px] w-full flex flex-col gap-6">
+        <li><a href="#" class="text-[#111827] text-lg font-semibold pb-6 leading-7">Resources</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Blog</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Newsletter</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Support</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Sitemap</a></li>
+      </ul>
+      <ul class="max-w-[212px] w-full flex flex-col gap-6">
+        <li><a href="#" class="text-[#111827] text-lg font-semibold pb-6 leading-7">Legal</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Terms</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Privacy</a></li>
+        <li><a href="#" class="text-[#6B7280] text-lg font-medium leading-7">Cookies</a></li>
+      </ul>
+    </div>
+    <div class="max-w-[1406px] mx-auto py-10">
+      <h1 class="text-[#9CA3AF] text-base leading-6 font-medium">© 2023 Softlog</h1>
+    </div>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
